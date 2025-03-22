@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #17212F;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 175px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+    /*margin-bottom: 20px;*/
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.primary {
+    background-color: #fcd24f ;
+    border: none;
+    color: black;
+}
+
+.primary:hover {
+    background-color: #c43b3c;
+}
+
+.secondary {
+    background-color: white;
+    border: 2px solid #17212F;
+    color: #17212F;
+}
+
+.secondary:hover {
+    background-color: #17212F;
+    color: white;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 180px;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.audio-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.audio-button img {
+    width: 100%;
+    height: auto;
+    filter: invert(1); /* Makes the icon white */
+}
+
+.audio-button:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Hiring</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="audio-button" onclick="toggleAudio()">
+            <img src="images\speaker-filled-audio-tool.png" alt="Audio Icon">
+        </div>
+    </header>
+    
+    <audio id="background-audio">
+        <source src="images\Aal Izz Well  3 Idiots  Aamir Khan, Madhavan, Sharman J  Sonu N, Swanand K & Shaan  Shantanu M-[AudioTrimmer.com].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script>
+        function toggleAudio() {
+            var audio = document.getElementById("background-audio");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+    
+    <section class="container">
+        <div class="left-section">            
+            <h1>RANCH-O-BOT</h1>
+            <p>Duniya mein sabse bada scam... job placement ka hai!</p>
+            <div class="buttons">
+                <button class="btn primary">Start</button>
+            </div>            
+        </div>
+        <div class="right-section">
+            <img src="images\RANCHO.png">
+        </div>
+    </section>
+</body>
+</html>
